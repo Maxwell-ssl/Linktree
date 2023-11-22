@@ -1,0 +1,104 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(rgb(20, 91, 119), rgb(8, 160, 135)) no-repeat;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 300px;
+    align-items: center;
+}
+
+#carta {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 850px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(rgb(8, 160, 135), rgb(20, 91, 119));
+    margin: 30px auto;
+    border: 30px solid black; /* Ajusta el ancho y color del borde según tus preferencias */
+    border-radius: 70px; /* Ajusta el radio de la esquina del borde según tus preferencias */
+}
+
+h1 {
+    color: #fff;
+    margin: 40px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    padding: 0;
+    border: 0;
+    margin: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button #ig {
+    margin-right: 100px;
+    width: 45px;
+    height: auto;
+}
+
+button #wp {
+    margin-right: 80px;
+    width: 75px;
+    height: auto;
+}
+
+button #x {
+    margin-right: 100px;
+    width: 80px;
+    height: auto;
+}
+
+button #ld {
+    margin-right: 100px;
+    width: 62px;
+    height: auto;
+}
+
+
+button a {
+    text-decoration: none;
+    color: black; /* Cambia el color del texto según sea necesario */
+}
+
+button #ig-2 {
+    margin-right: 140px;
+}
+
+button #wp-2 {
+    margin-right: 150px;
+}
+
+button #x-2 {
+    margin-right: 170px;
+}
+
+button #ld-2 {
+    margin-right: 150px;
+}
